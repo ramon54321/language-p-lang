@@ -1,0 +1,12 @@
+# If you want some examples of settings, check out:
+# https://github.com/atom/language-gfm/blob/master/settings/gfm.cson
+
+'.source.p-lang':
+  'editor':
+    'autoIndentOnPaste': false
+    'softTabs': true
+    'tabLength': 4
+    'commentStart': '# '
+    'increaseIndentPattern': '\\b(IF|ELSE|FOR EACH|WHILE|CLASS)\\b.*'
+    'decreaseIndentPattern': ''
+    'decreaseNextIndentPattern': ''
