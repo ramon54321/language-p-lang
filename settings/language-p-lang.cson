@@ -7,6 +7,6 @@
     'softTabs': true
     'tabLength': 4
     'commentStart': '# '
-    'increaseIndentPattern': '\\b(IF|ELSE|FOR EACH|WHILE|CLASS)\\b.*'
+    'increaseIndentPattern': '(\\b(IF|ELSE|FOR EACH|WHILE|CLASS)\\b.*)|([a-zA-Z0-9\\s]*\\:)|(\\/--[a-zA-Z0-9\\s]+)'
     'decreaseIndentPattern': ''
     'decreaseNextIndentPattern': ''

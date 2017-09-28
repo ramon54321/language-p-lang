@@ -17,7 +17,7 @@
     'name': 'comment'
   },
   {
-    'match': '\\b(IF|ELSE|WHILE|FOR EACH|IN|MORE THAN|LESS THAN|EQUAL TO|TRUE|FALSE|FUNCTION)\\b'
+    'match': '\\b(IF|ELSE|WHILE|FOR EACH|IN|MORE THAN|LESS THAN|IS|EQUAL TO|NOT|TRUE|FALSE|FUNCTION|FROM|KNOWN AS|DO)\\b'
     'name': 'constant.language'
   },
   {
@@ -25,11 +25,11 @@
     'name': 'entity.name.type'
   },
   {
-    'match': '\\b(BREAK|CONTINUE)\\b'
+    'match': '\\b(BREAK|CONTINUE|START|END)\\b'
     'name': 'keyword.control'
   },
   {
-    'match': '\\b(NULL)\\b'
+    'match': '\\b(NULL|FAILED|PASSED|VALID|INVALID)\\b'
     'name': 'variable.other'
   },
   {
